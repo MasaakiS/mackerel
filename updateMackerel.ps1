@@ -67,7 +67,6 @@ Invoke-WebRequest -Uri https://api.mackerelio.com/api/v0/downtimes/$downtimeid `
 -Headers $headers `
 -Method Put `
 -Body $Body
-#-Body '{"name":"connect2","start":1632240000,"duration":300,"recurrence":{"type":"weekly","interval":1,"weekdays":["Sunday"]},"monitorScopes":["3FPhWxgocxN"]}'
 }
 catch {
   echo '---祝祭日更新エラー'
